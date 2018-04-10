@@ -26,3 +26,21 @@
 .showing{
     left: 0;
 }
+
+
+// === slide === //
+.slick-slide img{
+    filter: grayscale(100%) !important;
+    max-width: 110px !important;
+}
+
+.slick-center img{
+    max-width: 160px !important;
+    filter: grayscale(0%) !important;
+}
+
+@media screen and (max-width:720px){
+    /*.slick-center{
+        max-width: 150px !important;
+    }*/
+}
