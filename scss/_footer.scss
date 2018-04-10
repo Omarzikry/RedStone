@@ -112,3 +112,9 @@ footer input:-moz-placeholder { /* Firefox 18- */
       right: 0;
       top: 18%;
   }
+
+  @media only screen and (max-width:960px){
+      .footer{
+          grid-template-columns: 1fr;
+      }
+  }
